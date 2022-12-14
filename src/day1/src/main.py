@@ -1,6 +1,5 @@
 import sys
 from collections import defaultdict
-from pprint import pprint
 
 
 def main():
@@ -36,7 +35,6 @@ def parse_input_data(data: list[str]) -> dict[int, list[int]]:
             continue
         result[key].append(int(line))
     return result
-
 
 
 if __name__ == '__main__':
